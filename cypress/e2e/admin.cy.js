@@ -1,6 +1,6 @@
 import adminPage from "../support/page/admin.page";
 
-describe("template spec", () => {
+describe("Admin Module", () => {
   beforeEach(() => {
     cy.login(Cypress.env("user"), Cypress.env("pass"));
   });
